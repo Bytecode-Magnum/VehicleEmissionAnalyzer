@@ -8,6 +8,11 @@ This project involves the analysis and prediction of carbon emissions of vehicle
 
 The project aimed to understand the relationship between vehicle characteristics and carbon emissions, creating a regression model to predict carbon emissions. Additionally, a Streamlit web application was developed for users to estimate carbon emissions based on vehicle details.
 
+
+## Screenshots 
+ ![Screenshot 2023-10-31 015200](https://github.com/Bytecode-Magnum/VehicleEmissionAnalyzer/assets/99680514/a7ea353d-3773-4a21-886e-039005c8e784)
+
+
 ## [Dataset](https://github.com/Bytecode-Magnum/VehicleEmissionAnalyzer/blob/main/CO2%20Emissions.csv)
 
 The dataset used in this project contains information about various vehicles and their attributes. The dataset includes the following columns:
