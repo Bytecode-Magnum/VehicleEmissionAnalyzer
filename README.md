@@ -44,7 +44,7 @@ The project involved in-depth Exploratory Data Analysis (EDA), focusing on under
 
 A regression model was created and trained using the dataset to predict carbon emissions based on the significant vehicle attributes identified during the EDA.
 
-## [Streamlit Web App](
+## [Streamlit Web App](https://github.com/Bytecode-Magnum/VehicleEmissionAnalyzer/blob/main/web_app.py)
 
 A Streamlit web application was developed for the deployment of the predictive model. This application enables users to input vehicle details and receive an approximate prediction of the carbon emissions.
 
