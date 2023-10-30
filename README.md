@@ -1,7 +1,7 @@
 
 # Vehicle Carbon Emission Analysis and Prediction with Streamlit Web App
 
-This project involves the analysis and prediction of carbon emissions of vehicles based on their characteristics. The analysis was conducted on a dataset containing details of various vehicles, focusing on their attributes and fuel consumption.
+This project involves the analysis and prediction of carbon emissions of vehicles based on their characteristics. The analysis was conducted on a dataset containing details of various vehicles, focusing on their attributes and fuel consumption
 
 
 ## [Project Overview](https://github.com/Bytecode-Magnum/VehicleEmissionAnalyzer/blob/main/carbon_emission.ipynb)
