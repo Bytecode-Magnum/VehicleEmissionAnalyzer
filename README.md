@@ -4,7 +4,7 @@
 This project involves the analysis and prediction of carbon emissions of vehicles based on their characteristics. The analysis was conducted on a dataset containing details of various vehicles, focusing on their attributes and fuel consumption.
 
 
-## [Project Overview]()
+## [Project Overview](https://github.com/Bytecode-Magnum/VehicleEmissionAnalyzer/blob/main/carbon_emission.ipynb)
 
 The project aimed to understand the relationship between vehicle characteristics and carbon emissions, creating a regression model to predict carbon emissions. Additionally, a Streamlit web application was developed for users to estimate carbon emissions based on vehicle details.
 
@@ -44,10 +44,10 @@ The project involved in-depth Exploratory Data Analysis (EDA), focusing on under
 
 A regression model was created and trained using the dataset to predict carbon emissions based on the significant vehicle attributes identified during the EDA.
 
-## Streamlit Web App
+## [Streamlit Web App](
 
 A Streamlit web application was developed for the deployment of the predictive model. This application enables users to input vehicle details and receive an approximate prediction of the carbon emissions.
 
 ### Usage
 
-To run the Streamlit application, execute the following command:
+To run the Streamlit application, execute the following command: strealit run web_app.py
