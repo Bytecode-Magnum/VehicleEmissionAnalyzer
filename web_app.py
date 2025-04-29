@@ -1,5 +1,6 @@
 import streamlit as st
-import joblib
+import pickle
+import numpy
 
 
 def calculate_carbon_emission(engine_size, cylinders, fuel_consumption_city, vehicle_class):
@@ -21,8 +22,8 @@ def calculate_carbon_emission(engine_size, cylinders, fuel_consumption_city, veh
                 st.error("Please enter a valid Vehicle Class.")
                 return
 
-            # Load the pre-trained model
-            loaded_model = joblib.load("carbon_emission_calculate.pkl")
+            with open('./carbon_emission_calculate.pkl', 'rb') as file:
+                loaded_model = pickle.load(file)
 
             # Prepare the input features for the model
             input_features = [[engine_size, cylinders, fuel_consumption_city, vehicle_class_int]]
